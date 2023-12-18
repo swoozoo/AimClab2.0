@@ -8,6 +8,7 @@
 @media only screen and (max-width: 612px) {
     * {
         font-size: 16pt;
+        margin: 0;
     }
 
     .navbar-left, .navbar-container{
@@ -17,6 +18,21 @@
 
     .navbar-right, .navbar-right a{
         display: none;
+    }
+
+    .parent-container{
+        display: none;
+    }
+
+    .item-container {
+        width: 10%;
+        height: 10%;
+        flex-direction: column;
+        font-size: 13pt;
+    }
+
+    .item-content img{
+        width: 10px;
     }
 
     .link-to, .footer-container, .footer-content, .footer-info p, .footer-sosmed, .footer-sosmed a, .footer-sosmed img, .footer-bottom p {
@@ -124,10 +140,6 @@
     height: 220px;
 }
 
-.item-illustration {
-    width: 100%;
-}
-
 .item-name {
     font-size: 14pt;
 }
@@ -135,7 +147,7 @@
 .item-price {
     font-size: 14pt;
     font-weight: bold;
-    color: #e44d26;
+    color: #b90e0a;
 }
 
 /* bagian footer */
