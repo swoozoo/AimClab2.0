@@ -34,7 +34,6 @@
     background-color: #f2f2f3;
     font-family: 'Grotesk', sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 /* bagian navigation bar */
@@ -50,15 +49,6 @@
     float: left;
     font-size: 20pt;
     display: flex;
-}
-
-.navbar-name{
-    text-decoration: none;
-    color: black;
-}
-
-.navbar-name:hover{
-    text-decoration: underline;
 }
 
 .navbar-name{
@@ -94,80 +84,48 @@
 /* bagian content */
 
 .parent-container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    padding: 5px 50px;
 }
 
-.title{
-    padding: 25px 20px;
-    display: flex;
-    width: 17%;
-    justify-content: center;
-    align-items: center;
-}
-
-.leaderboard-title{
+#title{
     font-size: 30pt;
+    padding: 20px 0;
 }
 
-.container{
-    display: grid;
-    width: 93%;
-    margin: 0 auto;
-    grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
-    border: 2px solid black;
+.register-form{
     font-size: 15pt;
-}
-
-#leaderboard-header{
-    font-size: 17pt;
-    font-weight: 600;
-}
-
-.rank-container{
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    height: 95%;
-    gap: 25px;
-    margin: 10px auto;
+    width: 30%;
 }
 
-.username-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 95%;
-    gap: 25px;
-    margin: 10px auto;
+.name, .dob, .email, .pass{
+    padding: 10px 0;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-bottom: 10px;
 }
 
-.kill-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 95%;
-    gap: 25px;
-    margin: 10px auto;
+.gender-container{
+    margin-bottom: 10px;
 }
 
-.accuracy-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 95%;
-    gap: 25px;
-    margin: 10px auto;
+#error-line{
+    color: red;
+    font-size: 14pt;
 }
 
-.score-container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 95%;
-    gap: 25px;
-    margin: 10px auto;
+#submit-button{
+    font-size: 15pt;
+    background-color: black;
+    color:#f5f5f5;
+    width: 100px;
+}
+
+#submit-button:hover{
+    opacity: 0.7;
 }
 
 /* bagian footer */
@@ -175,9 +133,9 @@
 .footer-container {
     padding: 20px 0;
     background-color: #171716;
-    position: absolute;
+    position: relative;
+    bottom: 0;
     width: 100%;
-    margin-top: 30px;
 }
 
 .footer-content {

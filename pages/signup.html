@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+    <header>
+        <div class="navbar-container heading-style">
+            <div class="navbar-left">
+                <img id="navbar-logo" src="../Assets/Aimclab-Logo.GIF">
+                <a href="./home.html" class="navbar-name">
+                    <div class="navbar-name">AimClab</div>
+                </a>
+            </div>
+            <div class="navbar-right">
+                <a href="./leaderboard.html">Leaderboard</a>
+                <a href="./store.html">Store</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./signup.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="parent-container">
+            <div class="signup">
+                <div id="title">Sign Up</div>
+                <form action="" class="register-form" onsubmit="signupValidation(event)">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" class="name" id="name" placeholder="input your name">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" class="dob" id="dob">
+                    <div class="gender-container">
+                        <label for="gender">Gender</label>
+                        <div class="inner-container">
+                            <input type="radio" name="gender" id="male" value="male">
+                            <span class="desc">Male</span>
+                        </div>
+                        <div class="inner-container">
+                            <input type="radio" name="gender" id="female" value="female">
+                            <span class="desc">Female</span>
+                        </div>
+                    </div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="email" id="email" placeholder="input your email">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" class="pass" id="pass" placeholder="input your password">
+                    <div id="error-line">Error Line</div>
+                    <button type="submit" id="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <p>contact@aimclab.com</p>
+            </div>
+            <div class="footer-sosmed">
+                <a href="https://www.instagram.com">
+                    <img src="../Assets/instagram-logo.png" alt="Instagram">
+                </a>                
+                <a href="https://www.x.com">
+                    <img src="../Assets/x-logo.png" alt="X">
+                </a>
+                <a href="https://www.facebook.com">
+                    <img src="../Assets/fb-logo.png" alt="Tiktok">
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2023 AimClab. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../script/signup.js"></script>
+</body>
+</html>
