@@ -51,6 +51,15 @@
     display: flex;
 }
 
+.navbar-name{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-name:hover{
+    text-decoration: underline;
+}
+
 .navbar-right{
     float: right;
 }
@@ -126,11 +135,9 @@
 }
 
 .link-to:hover{
-    border-color: #f5f5f5;
-    background-color: #f5f5f5;
-    color: black;
-    text-decoration: underline;
+    opacity: 0.7;
 }
+
 
 /* bagian footer */
 

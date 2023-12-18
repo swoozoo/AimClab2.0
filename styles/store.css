@@ -51,6 +51,15 @@
     display: flex;
 }
 
+.navbar-name{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-name:hover{
+    text-decoration: underline;
+}
+
 .navbar-right{
     float: right;
 }
@@ -74,6 +83,60 @@
 
 /* bagian content */
 
+.store-container {
+    padding: 25px 50px;
+}
+
+#store-header{
+    font-size: 30pt;
+}
+
+#store-sale{
+    font-size: 16pt;
+    padding : 10px 0;
+}
+
+.parent-container{
+    display: flex;
+    gap: 40px;
+    padding: 10px 0;
+}
+
+.item-container {
+    width: 180px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.item-content img{
+    width: 180px;
+    height: 220px;
+}
+
+.item-illustration {
+    width: 100%;
+}
+
+.item-name {
+    font-size: 14pt;
+}
+
+.item-price {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #e44d26;
+}
 
 /* bagian footer */
 

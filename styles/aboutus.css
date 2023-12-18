@@ -50,6 +50,15 @@
     display: flex;
 }
 
+.navbar-name{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-name:hover{
+    text-decoration: underline;
+}
+
 .navbar-right{
     float: right;
 }
@@ -82,15 +91,13 @@
     font-size: 30pt;
 }
 
-.aboutus-illustration{
-    height: 100px;
-    width: 100%;
-    object-fit: cover;
-}
-
 .aboutus-content{
     padding: 25px 0;
     font-size: 14pt;
+}
+
+.aboutus-content p{
+    padding: 10px 0;
 }
 
 /* bagian footer */
